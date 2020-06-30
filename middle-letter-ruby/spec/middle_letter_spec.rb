@@ -10,4 +10,8 @@ describe '#get_middle' do
     expect(get_middle('of')).to eq('of')
   end
 
+  it 'returns t when passed testing' do
+    expect(get_middle('testing')).to eq('t')
+  end
+
 end
