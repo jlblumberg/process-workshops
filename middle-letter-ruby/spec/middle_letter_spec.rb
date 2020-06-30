@@ -14,4 +14,8 @@ describe '#get_middle' do
     expect(get_middle('testing')).to eq('t')
   end
 
+  it 'returns es when passed test' do
+    expect(get_middle('test')).to eq('es')
+  end
+
 end
