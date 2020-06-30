@@ -7,7 +7,6 @@ get_middle("middle") # => "dd"
 get_middle("A") # => "A"
 get_middle("of") # => "of"
 
-
 input      |      output
 
 "A"               "A"
