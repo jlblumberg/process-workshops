@@ -1,10 +1,10 @@
 class MiddleLetter {
 
   getMiddle = (string) => {
-    if (string.length < 3) {
-      return string
+    let middle = Math.floor(string.length / 2)
+    if (string.length % 2 === 0) {
+      return string[middle - 1] + string[middle]
     } else {
-      let middle = Math.floor(string.length / 2)
       return string[middle]
     }
   }

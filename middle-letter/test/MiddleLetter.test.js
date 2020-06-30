@@ -17,4 +17,8 @@ describe('middle letter', () => {
     expect(getMiddle("testing")).to.equal("t");
   });
 
+  it('returns es when passed test', () => {
+    expect(getMiddle("test")).to.equal("es");
+  });
+
 });
