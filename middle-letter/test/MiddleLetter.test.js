@@ -9,4 +9,8 @@ describe('middle letter', () => {
     expect(getMiddle("A")).to.equal("A");
   });
 
+  it('returns of when passed of', () => {
+    expect(getMiddle("of")).to.equal("of")
+  });
+
 });
