@@ -6,4 +6,8 @@ describe '#get_middle' do
     expect(get_middle("a")).to eq("a")
   end
 
+  it 'returns of when passed of' do
+    expect(get_middle('of')).to eq('of')
+  end
+
 end
